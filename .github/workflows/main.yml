@@ -1,9 +1,9 @@
 name: learn-github-action
 on:
     push:
-      branches: [ master, dev ]
+      branches: [ main ]
     pull_request:
-      branches: [ master ]
+      branches: [ main ]
       paths:
         - "**.js"
       paths-ignore:
